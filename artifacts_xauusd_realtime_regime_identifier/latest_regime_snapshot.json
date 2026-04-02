@@ -1,0 +1,96 @@
+{
+  "stage": "overnight_prior",
+  "as_of_date": "2026-04-02",
+  "latest_bar_time_utc": "2026-04-02 07:45:00",
+  "london_ready": false,
+  "us_ready": false,
+  "structural_model": {
+    "high_vol_prob": 0.19451628892210887,
+    "trend_prob": 0.11697869799340924,
+    "regime_score": 0.701981797899094,
+    "top_contributions": [
+      {
+        "feature": "prev_day_range_ratio",
+        "raw_value": 0.8319510846586629,
+        "standardized": -0.565585485675668,
+        "high_vol_contribution": -0.43972243374032804
+      },
+      {
+        "feature": "vix_abs_z20_lag1",
+        "raw_value": 0.25662426531093446,
+        "standardized": -0.6037632252707579,
+        "high_vol_contribution": -0.10907445000840559
+      },
+      {
+        "feature": "tnx_abs_z20_lag1",
+        "raw_value": 0.140741101882389,
+        "standardized": -1.0742965409206617,
+        "high_vol_contribution": -0.057918752149277025
+      },
+      {
+        "feature": "oil_abs_z20_lag1",
+        "raw_value": 0.20651935470229632,
+        "standardized": -0.8078687671082033,
+        "high_vol_contribution": 0.027735203651639232
+      },
+      {
+        "feature": "min_prev_extreme_dist_norm",
+        "raw_value": 0.20385728688977864,
+        "standardized": -0.2517173145539998,
+        "high_vol_contribution": -0.020824420918979007
+      }
+    ]
+  },
+  "event_model": {
+    "high_vol_prob": 0.14261655467879225,
+    "trend_prob": 0.11780017955269535,
+    "regime_score": 0.7416077571037192,
+    "top_contributions": [
+      {
+        "feature": "prev_day_range_ratio",
+        "raw_value": 0.8319510846586629,
+        "standardized": -0.5336112680361541,
+        "high_vol_contribution": -0.5957746597976256
+      },
+      {
+        "feature": "gold_vol_credit_intensity_lag1",
+        "raw_value": 0.3950130757286717,
+        "standardized": -0.3359203424172773,
+        "high_vol_contribution": -0.278998486448583
+      },
+      {
+        "feature": "vix_abs_z20_lag1",
+        "raw_value": 0.25662426531093446,
+        "standardized": -0.7143135912030391,
+        "high_vol_contribution": -0.10542845219889488
+      },
+      {
+        "feature": "dxy_abs_z20_lag1",
+        "raw_value": 0.6452874021204786,
+        "standardized": -0.25799374577123196,
+        "high_vol_contribution": -0.09227198135373504
+      },
+      {
+        "feature": "jpy_ret_lag1",
+        "raw_value": 0.0,
+        "standardized": -0.10775423792225539,
+        "high_vol_contribution": 0.06466139324583368
+      }
+    ]
+  },
+  "combined": {
+    "high_vol_prob": 0.17635138193694805,
+    "trend_prob": 0.11726621653915938,
+    "regime_score": 0.7158508836207128,
+    "regime_label": "CALM_RANGE"
+  },
+  "weights": {
+    "structural": 0.65,
+    "event": 0.35
+  },
+  "symbol": "XAUUSD",
+  "timeframe": "M15",
+  "point": 0.01,
+  "contract_size": 100.0,
+  "generated_at_utc": "2026-04-02 04:55:30"
+}

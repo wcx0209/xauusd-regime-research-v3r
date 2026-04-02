@@ -1,0 +1,4 @@
+model,train_obs,test_obs,oos_auc,train_pseudo_r2,oos_corr,train_r2
+fullsample_early_high_vol_logit_v2,217,93,0.8264550264550264,0.22210406440058583,,
+fullsample_early_trend_day_logit_v2,217,93,0.6891233766233766,0.12228076092180029,,
+fullsample_early_regime_score_ols_v2,217,93,,,0.6637808446377258,0.26653785412917075

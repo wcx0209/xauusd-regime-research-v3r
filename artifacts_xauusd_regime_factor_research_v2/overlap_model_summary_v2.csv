@@ -1,0 +1,4 @@
+model,train_obs,test_obs,oos_auc,train_pseudo_r2,oos_corr,train_r2
+overlap_high_vol_logit_v2,80,35,0.816,0.5423012628349416,,
+overlap_trend_day_logit_v2,80,35,0.6724137931034483,0.3068574216502927,,
+overlap_regime_score_ols_v2,80,35,,,0.7761099839218308,0.6762506974205656

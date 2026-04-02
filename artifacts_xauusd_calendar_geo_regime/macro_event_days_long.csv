@@ -1,0 +1,184 @@
+date,macro_family,event_rows,event_codes,event_names
+2025-10-01,US_GROWTH_ACTIVITY,3,ism-manufacturing-pmi | ism-prices-paid | markit-manufacturing-pmi,ism 制造业pmi | ism 制造业价格支付 | s&p全球制造业pmi
+2025-10-01,US_LABOR_SECONDARY,1,adp-nonfarm-employment-change,adp非农就业变化
+2025-10-01,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-10-03,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-10-03,US_GROWTH_ACTIVITY,1,markit-services-pmi,s&p全球服务业pmi
+2025-10-05,US_GROWTH_ACTIVITY,2,ism-non-manufacturing-pmi | ism-non-manufacturing-prices,ism 非制造业 pmi | ism 非制造业价格支付
+2025-10-06,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-10-07,ECB_POLICY,2,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-10-08,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-10-08,US_TREASURY_OIL,2,10-year-note-auction | eia-crude-oil-stocks-change,10年期国债拍卖 | eia 原油库存变化
+2025-10-09,FED_POLICY,1,fed-chair-powell-speech,美联储主席powell讲话
+2025-10-09,US_TREASURY_OIL,1,30-year-bond-auction,30年期国债拍卖
+2025-10-14,FED_POLICY,1,fed-chair-powell-speech,美联储主席powell讲话
+2025-10-16,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-10-16,US_GROWTH_ACTIVITY,1,philadelphia-fed-manufacturing-index,费城联储制造业指数
+2025-10-16,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-10-18,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-10-21,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-10-22,ECB_POLICY,2,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-10-22,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-10-23,USD_HIGH_OTHER,1,existing-home-sales,成品房销售额
+2025-10-24,US_INFLATION,5,consumer-price-index | consumer-price-index-ex-food-energy-mm | consumer-price-index-ex-food-energy-nsa-mm | consumer-price-index-mm,cpi | cpi 年率y/y | cpi 月率m/m | 核心cpi n.s.a. 月率m/m
+2025-10-28,US_GROWTH_ACTIVITY,1,consumer-confidence-index,cb消费者信心指数
+2025-10-29,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-10-29,FED_POLICY,2,fed-interest-rate-decision | fomc-press-conference,美联储利率决议 | 联邦公开市场委员会(fomc)新闻发布会
+2025-10-29,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-10-30,BOJ_POLICY,2,boj-interest-rate-decision | boj-press-conference,日本央行利率决议 | 日本央行新闻发布会
+2025-10-30,ECB_POLICY,4,ecb-deposit-rate-decision | ecb-interest-rate-decision | ecb-monetary-policy-press-conference | ecb-president-lagarde-speech,ecb利率决策 | ecb存款利率决策 | ecb行长lagarde讲话 | ecb货币政策新闻发布会
+2025-10-31,US_GROWTH_ACTIVITY,1,chicago-pmi,mni芝加哥商业晴雨表
+2025-11-03,US_GROWTH_ACTIVITY,3,ism-manufacturing-pmi | ism-prices-paid | markit-manufacturing-pmi,ism 制造业pmi | ism 制造业价格支付 | s&p全球制造业pmi
+2025-11-04,ECB_POLICY,2,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-11-05,US_GROWTH_ACTIVITY,3,ism-non-manufacturing-pmi | ism-non-manufacturing-prices | markit-services-pmi,ism 非制造业 pmi | ism 非制造业价格支付 | s&p全球服务业pmi
+2025-11-05,US_LABOR_SECONDARY,1,adp-nonfarm-employment-change,adp非农就业变化
+2025-11-05,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-11-11,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-11-12,US_TREASURY_OIL,1,10-year-note-auction,10年期国债拍卖
+2025-11-13,US_TREASURY_OIL,2,30-year-bond-auction | eia-crude-oil-stocks-change,30年期国债拍卖 | eia 原油库存变化
+2025-11-19,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-11-20,USD_HIGH_OTHER,1,existing-home-sales,成品房销售额
+2025-11-20,US_GROWTH_ACTIVITY,1,philadelphia-fed-manufacturing-index,费城联储制造业指数
+2025-11-20,US_LABOR_MAJOR,3,average-hourly-earnings-mm | nonfarm-payrolls | unemployment-rate,失业率 | 平均时薪月率 m/m | 非农就业人口
+2025-11-20,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2025-11-21,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-11-22,ECB_POLICY,2,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-11-24,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-11-25,US_GROWTH_ACTIVITY,3,consumer-confidence-index | retail-sales-ex-autos-mm | retail-sales-mm,cb消费者信心指数 | 核心零售销售指数月率 m/m | 零售销售指数月率 m/m
+2025-11-25,US_INFLATION,1,producer-price-index-mm,ppi月率m/m
+2025-11-26,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-11-26,US_GROWTH_ACTIVITY,2,chicago-pmi | durable-goods-orders,mni芝加哥商业晴雨表 | 耐用品订单月率m/m
+2025-11-26,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2025-11-26,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-12-01,US_GROWTH_ACTIVITY,3,ism-manufacturing-pmi | ism-prices-paid | markit-manufacturing-pmi,ism 制造业pmi | ism 制造业价格支付 | s&p全球制造业pmi
+2025-12-02,FED_POLICY,1,fed-chair-powell-speech,美联储主席powell讲话
+2025-12-03,ECB_POLICY,2,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-12-03,US_GROWTH_ACTIVITY,3,ism-non-manufacturing-pmi | ism-non-manufacturing-prices | markit-services-pmi,ism 非制造业 pmi | ism 非制造业价格支付 | s&p全球服务业pmi
+2025-12-03,US_LABOR_SECONDARY,1,adp-nonfarm-employment-change,adp非农就业变化
+2025-12-03,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-12-04,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2025-12-05,US_INFLATION,2,core-pce-price-index-mm | core-pce-price-index-yy,核心个人消费支出价格指数年率y/y | 核心个人消费支出价格指数月率m/m
+2025-12-09,US_LABOR_SECONDARY,2,jolts-job-openings,jolts 职位空缺
+2025-12-09,US_TREASURY_OIL,1,10-year-note-auction,10年期国债拍卖
+2025-12-10,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2025-12-10,FED_POLICY,2,fed-interest-rate-decision | fomc-press-conference,美联储利率决议 | 联邦公开市场委员会(fomc)新闻发布会
+2025-12-10,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-12-11,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2025-12-11,US_TREASURY_OIL,1,30-year-bond-auction,30年期国债拍卖
+2025-12-16,US_GROWTH_ACTIVITY,2,retail-sales-ex-autos-mm | retail-sales-mm,核心零售销售指数月率 m/m | 零售销售指数月率 m/m
+2025-12-16,US_LABOR_MAJOR,3,average-hourly-earnings-mm | nonfarm-payrolls | unemployment-rate,失业率 | 平均时薪月率 m/m | 非农就业人口
+2025-12-17,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-12-18,ECB_POLICY,4,ecb-deposit-rate-decision | ecb-interest-rate-decision | ecb-monetary-policy-press-conference | ecb-president-lagarde-speech,ecb利率决策 | ecb存款利率决策 | ecb行长lagarde讲话 | ecb货币政策新闻发布会
+2025-12-18,US_GROWTH_ACTIVITY,1,philadelphia-fed-manufacturing-index,费城联储制造业指数
+2025-12-18,US_INFLATION,5,consumer-price-index | consumer-price-index-ex-food-energy-mm | consumer-price-index-ex-food-energy-nsa-mm | consumer-price-index-mm,cpi | cpi 年率y/y | cpi 月率m/m | 核心cpi n.s.a. 月率m/m
+2025-12-18,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2025-12-19,BOJ_POLICY,2,boj-interest-rate-decision | boj-press-conference,日本央行利率决议 | 日本央行新闻发布会
+2025-12-19,USD_HIGH_OTHER,1,existing-home-sales,成品房销售额
+2025-12-23,USD_HIGH_OTHER,1,gdp-sales-qq,gdp销售季率q/q
+2025-12-23,US_GROWTH_ACTIVITY,3,consumer-confidence-index | durable-goods-orders | gross-domestic-product-qq,cb消费者信心指数 | 国内生产总值季率 q/q | 耐用品订单月率m/m
+2025-12-24,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2025-12-24,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-12-29,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2025-12-30,US_GROWTH_ACTIVITY,1,chicago-pmi,mni芝加哥商业晴雨表
+2025-12-31,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-01-02,US_GROWTH_ACTIVITY,1,markit-manufacturing-pmi,s&p全球制造业pmi
+2026-01-05,US_GROWTH_ACTIVITY,2,ism-manufacturing-pmi | ism-prices-paid,ism 制造业pmi | ism 制造业价格支付
+2026-01-06,US_GROWTH_ACTIVITY,1,markit-services-pmi,s&p全球服务业pmi
+2026-01-07,US_GROWTH_ACTIVITY,2,ism-non-manufacturing-pmi | ism-non-manufacturing-prices,ism 非制造业 pmi | ism 非制造业价格支付
+2026-01-07,US_LABOR_SECONDARY,2,adp-nonfarm-employment-change | jolts-job-openings,adp非农就业变化 | jolts 职位空缺
+2026-01-07,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-01-08,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-01-09,US_LABOR_MAJOR,3,average-hourly-earnings-mm | nonfarm-payrolls | unemployment-rate,失业率 | 平均时薪月率 m/m | 非农就业人口
+2026-01-12,US_TREASURY_OIL,1,10-year-note-auction,10年期国债拍卖
+2026-01-13,USD_HIGH_OTHER,2,new-home-sales,新屋销售量
+2026-01-13,US_INFLATION,5,consumer-price-index | consumer-price-index-ex-food-energy-mm | consumer-price-index-ex-food-energy-nsa-mm | consumer-price-index-mm,cpi | cpi 年率y/y | cpi 月率m/m | 核心cpi n.s.a. 月率m/m
+2026-01-13,US_TREASURY_OIL,1,30-year-bond-auction,30年期国债拍卖
+2026-01-14,US_GROWTH_ACTIVITY,2,retail-sales-ex-autos-mm | retail-sales-mm,核心零售销售指数月率 m/m | 零售销售指数月率 m/m
+2026-01-14,US_INFLATION,1,producer-price-index-mm,ppi月率m/m
+2026-01-14,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-01-15,US_GROWTH_ACTIVITY,1,philadelphia-fed-manufacturing-index,费城联储制造业指数
+2026-01-15,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-01-21,ECB_POLICY,2,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-01-22,USD_HIGH_OTHER,1,gdp-sales-qq,gdp销售季率q/q
+2026-01-22,US_GROWTH_ACTIVITY,1,gross-domestic-product-qq,国内生产总值季率 q/q
+2026-01-22,US_INFLATION,2,core-pce-price-index-mm | core-pce-price-index-yy,核心个人消费支出价格指数年率y/y | 核心个人消费支出价格指数月率m/m
+2026-01-22,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-01-22,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-01-23,BOJ_POLICY,2,boj-interest-rate-decision | boj-press-conference,日本央行利率决议 | 日本央行新闻发布会
+2026-01-23,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-01-26,US_GROWTH_ACTIVITY,1,durable-goods-orders,耐用品订单月率m/m
+2026-01-27,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-01-27,US_GROWTH_ACTIVITY,1,consumer-confidence-index,cb消费者信心指数
+2026-01-28,FED_POLICY,2,fed-interest-rate-decision | fomc-press-conference,美联储利率决议 | 联邦公开市场委员会(fomc)新闻发布会
+2026-01-28,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-01-29,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-01-30,US_GROWTH_ACTIVITY,1,chicago-pmi,mni芝加哥商业晴雨表
+2026-01-30,US_INFLATION,1,producer-price-index-mm,ppi月率m/m
+2026-02-02,US_GROWTH_ACTIVITY,2,ism-manufacturing-pmi | ism-prices-paid,ism 制造业pmi | ism 制造业价格支付
+2026-02-03,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-02-04,US_GROWTH_ACTIVITY,2,ism-non-manufacturing-pmi | ism-non-manufacturing-prices,ism 非制造业 pmi | ism 非制造业价格支付
+2026-02-04,US_LABOR_SECONDARY,1,adp-nonfarm-employment-change,adp非农就业变化
+2026-02-04,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-02-05,ECB_POLICY,4,ecb-deposit-rate-decision | ecb-interest-rate-decision | ecb-monetary-policy-press-conference | ecb-president-lagarde-speech,ecb利率决策 | ecb存款利率决策 | ecb行长lagarde讲话 | ecb货币政策新闻发布会
+2026-02-05,US_LABOR_SECONDARY,2,initial-jobless-claims | jolts-job-openings,jolts 职位空缺 | 初领失业金人数
+2026-02-09,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-02-10,US_GROWTH_ACTIVITY,2,retail-sales-ex-autos-mm | retail-sales-mm,核心零售销售指数月率 m/m | 零售销售指数月率 m/m
+2026-02-11,US_LABOR_MAJOR,3,average-hourly-earnings-mm | nonfarm-payrolls | unemployment-rate,失业率 | 平均时薪月率 m/m | 非农就业人口
+2026-02-11,US_TREASURY_OIL,2,10-year-note-auction | eia-crude-oil-stocks-change,10年期国债拍卖 | eia 原油库存变化
+2026-02-12,USD_HIGH_OTHER,1,existing-home-sales,成品房销售额
+2026-02-12,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-02-12,US_TREASURY_OIL,1,30-year-bond-auction,30年期国债拍卖
+2026-02-13,US_INFLATION,5,consumer-price-index | consumer-price-index-ex-food-energy-mm | consumer-price-index-ex-food-energy-nsa-mm | consumer-price-index-mm,cpi | cpi 年率y/y | cpi 月率m/m | 核心cpi n.s.a. 月率m/m
+2026-02-14,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-02-15,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-02-18,US_GROWTH_ACTIVITY,1,durable-goods-orders,耐用品订单月率m/m
+2026-02-19,US_GROWTH_ACTIVITY,1,philadelphia-fed-manufacturing-index,费城联储制造业指数
+2026-02-19,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-02-19,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-02-20,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-02-20,USD_HIGH_OTHER,3,gdp-sales-qq | new-home-sales,gdp销售季率q/q | 新屋销售量
+2026-02-20,US_GROWTH_ACTIVITY,1,gross-domestic-product-qq,国内生产总值季率 q/q
+2026-02-20,US_INFLATION,2,core-pce-price-index-mm | core-pce-price-index-yy,核心个人消费支出价格指数年率y/y | 核心个人消费支出价格指数月率m/m
+2026-02-23,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-02-24,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-02-24,US_GROWTH_ACTIVITY,1,consumer-confidence-index,cb消费者信心指数
+2026-02-25,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-02-26,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-02-26,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-02-27,US_GROWTH_ACTIVITY,1,chicago-pmi,mni芝加哥商业晴雨表
+2026-02-27,US_INFLATION,1,producer-price-index-mm,ppi月率m/m
+2026-03-02,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-03-02,US_GROWTH_ACTIVITY,3,ism-manufacturing-pmi | ism-prices-paid | markit-manufacturing-pmi,ism 制造业pmi | ism 制造业价格支付 | s&p全球制造业pmi
+2026-03-04,US_GROWTH_ACTIVITY,3,ism-non-manufacturing-pmi | ism-non-manufacturing-prices | markit-services-pmi,ism 非制造业 pmi | ism 非制造业价格支付 | s&p全球服务业pmi
+2026-03-04,US_LABOR_SECONDARY,1,adp-nonfarm-employment-change,adp非农就业变化
+2026-03-04,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-03-05,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-03-05,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-03-06,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-03-06,US_GROWTH_ACTIVITY,2,retail-sales-ex-autos-mm | retail-sales-mm,核心零售销售指数月率 m/m | 零售销售指数月率 m/m
+2026-03-06,US_LABOR_MAJOR,3,average-hourly-earnings-mm | nonfarm-payrolls | unemployment-rate,失业率 | 平均时薪月率 m/m | 非农就业人口
+2026-03-10,USD_HIGH_OTHER,1,existing-home-sales,成品房销售额
+2026-03-11,US_INFLATION,5,consumer-price-index | consumer-price-index-ex-food-energy-mm | consumer-price-index-ex-food-energy-nsa-mm | consumer-price-index-mm,cpi | cpi 年率y/y | cpi 月率m/m | 核心cpi n.s.a. 月率m/m
+2026-03-11,US_TREASURY_OIL,2,10-year-note-auction | eia-crude-oil-stocks-change,10年期国债拍卖 | eia 原油库存变化
+2026-03-12,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-03-12,US_TREASURY_OIL,1,30-year-bond-auction,30年期国债拍卖
+2026-03-13,USD_HIGH_OTHER,1,gdp-sales-qq,gdp销售季率q/q
+2026-03-13,US_GROWTH_ACTIVITY,2,durable-goods-orders | gross-domestic-product-qq,国内生产总值季率 q/q | 耐用品订单月率m/m
+2026-03-13,US_INFLATION,2,core-pce-price-index-mm | core-pce-price-index-yy,核心个人消费支出价格指数年率y/y | 核心个人消费支出价格指数月率m/m
+2026-03-13,US_LABOR_SECONDARY,1,jolts-job-openings,jolts 职位空缺
+2026-03-17,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-03-18,FED_POLICY,2,fed-interest-rate-decision | fomc-press-conference,美联储利率决议 | 联邦公开市场委员会(fomc)新闻发布会
+2026-03-18,US_INFLATION,1,producer-price-index-mm,ppi月率m/m
+2026-03-18,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-03-19,BOJ_POLICY,2,boj-interest-rate-decision | boj-press-conference,日本央行利率决议 | 日本央行新闻发布会
+2026-03-19,ECB_POLICY,4,ecb-deposit-rate-decision | ecb-interest-rate-decision | ecb-monetary-policy-press-conference | ecb-president-lagarde-speech,ecb利率决策 | ecb存款利率决策 | ecb行长lagarde讲话 | ecb货币政策新闻发布会
+2026-03-19,USD_HIGH_OTHER,1,new-home-sales,新屋销售量
+2026-03-19,US_GROWTH_ACTIVITY,1,philadelphia-fed-manufacturing-index,费城联储制造业指数
+2026-03-19,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-03-21,FED_POLICY,1,fed-chair-powell-speech,美联储主席powell讲话
+2026-03-25,ECB_POLICY,1,ecb-president-lagarde-speech,ecb行长lagarde讲话
+2026-03-25,US_TREASURY_OIL,1,eia-crude-oil-stocks-change,eia 原油库存变化
+2026-03-26,US_LABOR_SECONDARY,1,initial-jobless-claims,初领失业金人数
+2026-03-30,FED_POLICY,1,fed-chair-powell-speech,美联储主席powell讲话
+2026-03-31,US_GROWTH_ACTIVITY,2,chicago-pmi | consumer-confidence-index,cb消费者信心指数 | mni芝加哥商业晴雨表
+2026-03-31,US_LABOR_SECONDARY,1,jolts-job-openings,jolts 职位空缺

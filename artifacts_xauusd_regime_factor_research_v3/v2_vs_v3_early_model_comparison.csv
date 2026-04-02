@@ -1,0 +1,5 @@
+label,metric,metric_v2,metric_v3
+full_early_high_vol_auc,auc,0.8264550264550264,0.7951612903225806
+full_early_regime_corr,corr,0.6637808446377258,0.6560162667720348
+overlap_early_high_vol_auc,auc,0.664,0.728
+overlap_early_regime_corr,corr,0.185552185000024,0.22037321915383926

@@ -1,0 +1,4 @@
+model,train_obs,test_obs,oos_auc,regularization,hyperparam,oos_corr
+fullsample_high_vol_logit_v3r,217,93,0.9167533818938605,l2,0.3,
+fullsample_trend_day_logit_v3r,217,93,0.9404024767801857,l2,0.1,
+fullsample_regime_score_ridge_v3r,217,93,,ridge,10.0,0.8888903709453507

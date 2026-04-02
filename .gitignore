@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+.venv311/
+*.pyc
+*.pyo
+*.log
+loop_stdout.log
+loop_stderr.log
+artifacts_xauusd_realtime_regime_identifier/wiki_cache/
+artifacts_xauusd_realtime_regime_identifier/yahoo_cache/

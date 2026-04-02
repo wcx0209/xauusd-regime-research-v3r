@@ -1,0 +1,8 @@
+MetaTrader5
+matplotlib
+numpy
+pandas
+reportlab
+requests
+scikit-learn
+statsmodels

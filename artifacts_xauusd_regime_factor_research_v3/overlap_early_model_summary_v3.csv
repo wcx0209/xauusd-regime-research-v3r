@@ -1,0 +1,4 @@
+model,train_obs,test_obs,oos_auc,train_pseudo_r2,oos_corr,train_r2
+overlap_early_high_vol_logit_v3,79,35,0.728,0.5303408554524742,,
+overlap_early_trend_day_logit_v3,79,35,0.5229885057471264,0.3050311779212005,,
+overlap_early_regime_score_ols_v3,79,35,,,0.22037321915383926,0.638758118913651

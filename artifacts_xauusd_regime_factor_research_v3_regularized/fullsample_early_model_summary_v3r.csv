@@ -1,0 +1,4 @@
+model,train_obs,test_obs,oos_auc,regularization,hyperparam,oos_corr
+fullsample_early_high_vol_logit_v3r,213,92,0.796236559139785,l2,3.0,
+fullsample_early_trend_day_logit_v3r,213,92,0.6472039473684211,l2,10.0,
+fullsample_early_regime_score_ridge_v3r,213,92,,ridge,0.03,0.6560998796072341

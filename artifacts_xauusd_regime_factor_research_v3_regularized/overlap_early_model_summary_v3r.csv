@@ -1,0 +1,4 @@
+model,train_obs,test_obs,oos_auc,regularization,hyperparam,oos_corr
+overlap_early_high_vol_logit_v3r,79,35,0.736,l2,1.0,
+overlap_early_trend_day_logit_v3r,79,35,0.5172413793103448,l2,10.0,
+overlap_early_regime_score_ridge_v3r,79,35,,ridge,30.0,0.29728900970717526
