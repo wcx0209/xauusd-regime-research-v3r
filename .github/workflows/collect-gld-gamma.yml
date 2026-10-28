@@ -22,7 +22,9 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - run: pip install -r requirements.txt
+      - name: Install collector dependencies
+        working-directory: gamma-collector
+        run: pip install -r requirements.txt
       - name: Calculate gamma levels
         working-directory: gamma-collector
         run: python collector.py --output ../gamma-data/latest.json --history ../gamma-data/history.csv
