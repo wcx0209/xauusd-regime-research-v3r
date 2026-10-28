@@ -203,15 +203,22 @@ def expected_move(contracts: list[Contract], spot: float, front_expiry: str) -> 
     return spot * atm_iv * math.sqrt(atm_contracts[0].years)
 
 
-def build_payload(now: datetime | None = None) -> dict[str, float | str | None]:
+def build_payload(now: datetime | None = None) -> dict[str, object]:
     now = now or datetime.now(timezone.utc)
     spot, expiries, contracts = load_chain(now)
     xau_proxy = last_price("GC=F")
     rate = risk_free_rate()
     current = [(contract, signed_gex(contract, spot, rate)) for contract in contracts]
     per_strike: dict[float, float] = {}
+    distribution: dict[float, dict[str, float]] = {}
     for contract, gex in current:
         per_strike[contract.strike] = per_strike.get(contract.strike, 0.0) + gex
+        row = distribution.setdefault(
+            contract.strike,
+            {"callGex": 0.0, "putGex": 0.0, "callOi": 0.0, "putOi": 0.0},
+        )
+        row[f"{contract.option_type}Gex"] += gex
+        row[f"{contract.option_type}Oi"] += contract.open_interest
 
     call_walls = rank_walls(contracts, spot, rate, "call")
     put_walls = rank_walls(contracts, spot, rate, "put")
@@ -224,6 +231,26 @@ def build_payload(now: datetime | None = None) -> dict[str, float | str | None]:
     source = (
         f"yfinance_GLD_chain:dealer_sign_proxy;front={front_expiry};"
         f"front_label={'0dte' if true_0dte else 'nearest'};expiries={len(expiries)};xau=GC_F"
+    )
+    visible_distribution = [
+        {
+            "strike": round(strike, 4),
+            "callGex": round(values["callGex"], 2),
+            "putGex": round(values["putGex"], 2),
+            "netGex": round(values["callGex"] + values["putGex"], 2),
+            "callOi": round(values["callOi"]),
+            "putOi": round(values["putOi"]),
+        }
+        for strike, values in distribution.items()
+        if spot * 0.85 <= strike <= spot * 1.15
+    ]
+    visible_distribution = sorted(
+        sorted(
+            visible_distribution,
+            key=lambda row: abs(row["callGex"]) + abs(row["putGex"]),
+            reverse=True,
+        )[:36],
+        key=lambda row: row["strike"],
     )
     return {
         "asOf": now.replace(microsecond=0).isoformat().replace("+00:00", "Z"),
@@ -239,19 +266,37 @@ def build_payload(now: datetime | None = None) -> dict[str, float | str | None]:
         "putWall": round(put_walls[0], 4),
         "secondCallWall": round(call_walls[1], 4) if len(call_walls) > 1 else None,
         "secondPutWall": round(put_walls[1], 4) if len(put_walls) > 1 else None,
+        "distribution": visible_distribution,
     }
 
 
-def write_outputs(payload: dict[str, float | str | None], output: Path, history: Path) -> None:
+def write_outputs(payload: dict[str, object], output: Path, history: Path, distribution: Path) -> None:
+    aggregate = {key: value for key, value in payload.items() if key != "distribution"}
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    output.write_text(json.dumps(aggregate, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    distribution.parent.mkdir(parents=True, exist_ok=True)
+    distribution.write_text(
+        json.dumps(
+            {
+                "asOf": payload["asOf"],
+                "source": payload["source"],
+                "gldPrice": payload["gldPrice"],
+                "xauPrice": payload["xauPrice"],
+                "rows": payload["distribution"],
+            },
+            indent=2,
+            ensure_ascii=False,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     history.parent.mkdir(parents=True, exist_ok=True)
     exists = history.exists()
     with history.open("a", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(payload))
+        writer = csv.DictWriter(handle, fieldnames=list(aggregate))
         if not exists:
             writer.writeheader()
-        writer.writerow(payload)
+        writer.writerow(aggregate)
 
 
 def main() -> None:
@@ -259,14 +304,15 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="calculate and print without uploading")
     parser.add_argument("--output", type=Path, help="write the latest aggregate as JSON")
     parser.add_argument("--history", type=Path, help="append the aggregate to a CSV history")
+    parser.add_argument("--distribution", type=Path, help="write strike-by-strike GEX as JSON")
     args = parser.parse_args()
     payload = build_payload()
     if args.dry_run or not args.output:
         print(json.dumps(payload, indent=2, ensure_ascii=False))
     if args.output:
-        if not args.history:
-            raise RuntimeError("--history is required when --output is used")
-        write_outputs(payload, args.output, args.history)
+        if not args.history or not args.distribution:
+            raise RuntimeError("--history and --distribution are required when --output is used")
+        write_outputs(payload, args.output, args.history, args.distribution)
         print(json.dumps({"ok": True, "asOf": payload["asOf"], "source": payload["source"]}))
 
 
