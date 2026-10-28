@@ -1,0 +1,3 @@
+asOf,source,xauPrice,gldPrice,netGamma0dte,netGammaAll,expectedMoveGld,gammaFlip,gammaPin,callWall,putWall,secondCallWall,secondPutWall
+2026-10-28T12:54:16Z,yfinance_GLD_chain:dealer_sign_proxy;front=2026-10-28;front_label=0dte;expiries=8;xau=GC_F,4067.8999,372.28,43995678.83,94774992.43,3.76,370.6793,380.0,375.0,370.0,380.0,368.0
+

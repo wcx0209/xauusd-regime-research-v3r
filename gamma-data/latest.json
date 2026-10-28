@@ -1,0 +1,16 @@
+{
+  "asOf": "2026-10-28T12:54:16Z",
+  "source": "yfinance_GLD_chain:dealer_sign_proxy;front=2026-10-28;front_label=0dte;expiries=8;xau=GC_F",
+  "xauPrice": 4067.8999,
+  "gldPrice": 372.28,
+  "netGamma0dte": 43995678.83,
+  "netGammaAll": 94774992.43,
+  "expectedMoveGld": 3.76,
+  "gammaFlip": 370.6793,
+  "gammaPin": 380.0,
+  "callWall": 375.0,
+  "putWall": 370.0,
+  "secondCallWall": 380.0,
+  "secondPutWall": 368.0
+}
+
