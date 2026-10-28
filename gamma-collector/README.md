@@ -2,6 +2,8 @@
 
 每小时从 Yahoo Finance 下载 GLD 期权链，用 Black–Scholes Gamma 与未平仓量估算 Gamma Exposure，再把聚合后的关键点位写入 GitHub。公开的 XAU/GLD Gamma Dashboard 会读取 `gamma-data/latest.json`，并用自己的每小时任务把关键点位存入数据库。
 
+同一个工作流也下载 FXY 期权链，将 FXY 行权价按当时的 FXY/USDJPY 比率反向映射成 USDJPY 点位，输出到 `jpy-gamma-data/latest.json`。这是日元ETF代理，不是CME 6J或OTC做市商账本。
+
 ## 数据口径
 
 - 标的与期权链：Yahoo Finance 的 `GLD`
