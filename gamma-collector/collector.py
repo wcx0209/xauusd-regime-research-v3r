@@ -25,6 +25,7 @@ import yfinance as yf
 CONTRACT_MULTIPLIER = 100.0
 MAX_DAYS = 90
 MAX_EXPIRIES = 8
+MIN_EXPIRIES = 2
 GRID_POINTS = 121
 GOLD_API_URL = "https://api.gold-api.com/price/XAU"
 
@@ -167,6 +168,10 @@ def load_chain(now: datetime) -> tuple[float, list[str], list[Contract]]:
             loaded_expiries.append(expiry)
     if not contracts:
         raise RuntimeError("Yahoo returned no usable GLD contracts")
+    if len(loaded_expiries) < MIN_EXPIRIES:
+        raise RuntimeError(
+            f"Yahoo returned only {len(loaded_expiries)} usable GLD expiry; preserving the previous snapshot"
+        )
     return spot, loaded_expiries, contracts
 
 
