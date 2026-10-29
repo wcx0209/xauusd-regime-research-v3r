@@ -1,8 +1,8 @@
 {
   "asOf": "2026-10-29T02:55:43Z",
-  "source": "yfinance_GLD_chain:dealer_sign_proxy;front=2026-10-29;front_label=0dte;expiries=8;xau=GC_F",
+  "source": "yfinance_GLD_chain:dealer_sign_proxy;front=2026-10-29;front_label=0dte;expiries=8;xau=gold_api",
   "gldPrice": 373.51,
-  "xauPrice": 4055.8999,
+  "xauPrice": 4030.7,
   "rows": [
     {
       "strike": 350.0,
