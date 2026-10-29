@@ -12,6 +12,7 @@ import csv
 import json
 import math
 import time
+import urllib.request
 from dataclasses import dataclass
 from datetime import date, datetime, time as clock_time, timedelta, timezone
 from pathlib import Path
@@ -25,6 +26,7 @@ CONTRACT_MULTIPLIER = 100.0
 MAX_DAYS = 90
 MAX_EXPIRIES = 8
 GRID_POINTS = 121
+GOLD_API_URL = "https://api.gold-api.com/price/XAU"
 
 
 @dataclass(frozen=True)
@@ -77,6 +79,22 @@ def last_price(symbol: str) -> float:
         if closes.empty:
             raise RuntimeError(f"No price returned for {symbol}")
         return float(closes.iloc[-1])
+
+    return retry(fetch)
+
+
+def gold_api_price() -> float:
+    def fetch() -> float:
+        request = urllib.request.Request(
+            GOLD_API_URL,
+            headers={"Accept": "application/json", "User-Agent": "GammaRadarCollector/1.0"},
+        )
+        with urllib.request.urlopen(request, timeout=20) as response:
+            payload = json.load(response)
+        price = float(payload.get("price", 0.0))
+        if not math.isfinite(price) or price <= 0:
+            raise RuntimeError("Gold API returned no valid XAU price")
+        return price
 
     return retry(fetch)
 
@@ -206,7 +224,7 @@ def expected_move(contracts: list[Contract], spot: float, front_expiry: str) -> 
 def build_payload(now: datetime | None = None) -> dict[str, object]:
     now = now or datetime.now(timezone.utc)
     spot, expiries, contracts = load_chain(now)
-    xau_proxy = last_price("GC=F")
+    xau_proxy = gold_api_price()
     rate = risk_free_rate()
     current = [(contract, signed_gex(contract, spot, rate)) for contract in contracts]
     per_strike: dict[float, float] = {}
@@ -230,7 +248,7 @@ def build_payload(now: datetime | None = None) -> dict[str, object]:
     front_gamma = sum(gex for contract, gex in current if contract.expiry == front_expiry)
     source = (
         f"yfinance_GLD_chain:dealer_sign_proxy;front={front_expiry};"
-        f"front_label={'0dte' if true_0dte else 'nearest'};expiries={len(expiries)};xau=GC_F"
+        f"front_label={'0dte' if true_0dte else 'nearest'};expiries={len(expiries)};xau=gold_api"
     )
     visible_distribution = [
         {

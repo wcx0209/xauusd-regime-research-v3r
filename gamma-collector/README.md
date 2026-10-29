@@ -7,7 +7,7 @@
 ## 数据口径
 
 - 标的与期权链：Yahoo Finance 的 `GLD`
-- XAU 映射价格：Yahoo Finance 的 `GC=F`（COMEX 黄金期货代理）
+- XAU 映射价格：Gold API 的 `XAU/USD` 综合现货价（无需 API Key）
 - 利率：`^IRX`，失败时回退到 4%
 - Gamma：Black–Scholes 单位 Gamma
 - GEX：`Gamma × OI × 100 × Spot² × 1%`
