@@ -18,3 +18,4 @@ asOf,source,fxyPrice,usdJpyPrice,contractRows,netGammaProxy
 2026-10-31T22:51:22Z,yfinance_FXY_chain:call_plus_put_minus_proxy,58.19,157.804,57,4568.616130549519
 2026-11-01T02:39:13Z,yfinance_FXY_chain:call_plus_put_minus_proxy,58.19,157.804,57,4545.612045935263
 2026-11-01T09:47:22Z,yfinance_FXY_chain:call_plus_put_minus_proxy,58.19,157.804,57,4550.863585827648
+2026-11-01T16:28:38Z,yfinance_FXY_chain:call_plus_put_minus_proxy,58.19,157.804,57,4555.777587881284
