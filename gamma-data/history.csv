@@ -36,3 +36,4 @@ asOf,source,xauPrice,gldPrice,netGamma0dte,netGammaAll,expectedMoveGld,gammaFlip
 2026-11-06T23:33:05Z,yfinance_GLD_chain:dealer_sign_proxy;front=2026-11-06;front_label=0dte;expiries=8;xau=gold_api,4072.1001,372.52,5253592.93,-98434027.75,0.535,374.7082,345.0,380.0,345.0,375.0,370.0
 2026-11-07T03:15:35Z,yfinance_GLD_chain:dealer_sign_proxy;front=2026-11-09;front_label=nearest;expiries=8;xau=gold_api,4072.1001,372.52,24786409.24,-88301949.05,5.12,374.9865,345.0,380.0,345.0,375.0,370.0
 2026-11-07T10:42:44Z,yfinance_GLD_chain:dealer_sign_proxy;front=2026-11-09;front_label=nearest;expiries=8;xau=gold_api,4072.1001,372.52,24186757.66,-88620268.67,5.12,374.9577,345.0,380.0,345.0,375.0,370.0
+2026-11-07T16:39:24Z,yfinance_GLD_chain:dealer_sign_proxy;front=2026-11-09;front_label=nearest;expiries=8;xau=gold_api,4072.1001,372.52,23686217.48,-88805245.19,5.12,374.9351,345.0,380.0,345.0,375.0,370.0
