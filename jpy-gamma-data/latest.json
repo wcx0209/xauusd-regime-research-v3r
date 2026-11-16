@@ -1,22 +1,22 @@
 {
-  "asOf": "2026-11-16T12:06:05Z",
+  "asOf": "2026-11-16T22:33:41Z",
   "source": "yfinance_FXY_chain:call_plus_put_minus_proxy",
   "proxySymbol": "FXY",
-  "fxyPrice": 57.38,
-  "usdJpyPrice": 159.545,
+  "fxyPrice": 57.46,
+  "usdJpyPrice": 159.415,
   "expiries": [
     "2026-11-20",
     "2026-12-18",
     "2027-01-15"
   ],
-  "contractRows": 34,
-  "netGammaProxy": 212.72596214266062,
+  "contractRows": 59,
+  "netGammaProxy": 2978.1904702439165,
   "rows": [
     {
       "strike": 134.75,
       "call_oi": 10,
       "put_oi": 0,
-      "call_gamma": 0.027007011441150038,
+      "call_gamma": 0.027124680886750775,
       "put_gamma": 0.0,
       "expiry": "2026-11-20"
     },
@@ -24,71 +24,103 @@
       "strike": 136.75,
       "call_oi": 30,
       "put_oi": 0,
-      "call_gamma": 0.027658425990435533,
+      "call_gamma": 0.026939009107082818,
       "put_gamma": 0.0,
       "expiry": "2026-11-20"
     },
     {
-      "strike": 140.75,
+      "strike": 141.0,
       "call_oi": 1,
       "put_oi": 0,
-      "call_gamma": 0.03535998966910082,
+      "call_gamma": 0.036058034487708286,
       "put_gamma": 0.0,
       "expiry": "2026-11-20"
     },
     {
-      "strike": 145.25,
+      "strike": 145.5,
       "call_oi": 10,
       "put_oi": 0,
-      "call_gamma": 0.04469439876463614,
+      "call_gamma": 0.04608727468759577,
       "put_gamma": 0.0,
       "expiry": "2026-11-20"
     },
     {
       "strike": 147.75,
       "call_oi": 1,
-      "put_oi": 0,
-      "call_gamma": 0.0513440569031559,
-      "put_gamma": 0.0,
+      "put_oi": 1,
+      "call_gamma": 0.05332104587898308,
+      "put_gamma": 0.05573798090488842,
       "expiry": "2026-11-20"
     },
     {
-      "strike": 150.0,
+      "strike": 150.25,
       "call_oi": 135,
-      "put_oi": 0,
-      "call_gamma": 2.7741210782675488e-05,
-      "put_gamma": 0.0,
+      "put_oi": 2,
+      "call_gamma": 0.06832002790365124,
+      "put_gamma": 0.07287230960068933,
       "expiry": "2026-11-20"
     },
     {
-      "strike": 152.5,
+      "strike": 152.75,
       "call_oi": 1188,
-      "put_oi": 0,
-      "call_gamma": 0.0028301772643269116,
-      "put_gamma": 0.0,
+      "put_oi": 2,
+      "call_gamma": 0.09864778997997738,
+      "put_gamma": 0.09915006239962891,
       "expiry": "2026-11-20"
     },
     {
-      "strike": 157.75,
+      "strike": 155.25,
+      "call_oi": 820,
+      "put_oi": 5,
+      "call_gamma": 0.15772740012246206,
+      "put_gamma": 0.15986107766373264,
+      "expiry": "2026-11-20"
+    },
+    {
+      "strike": 158.0,
       "call_oi": 112,
+      "put_oi": 59,
+      "call_gamma": 0.410517960894168,
+      "put_gamma": 0.36654849913800047,
+      "expiry": "2026-11-20"
+    },
+    {
+      "strike": 160.75,
+      "call_oi": 27,
+      "put_oi": 30,
+      "call_gamma": 0.40004129812869543,
+      "put_gamma": 0.2987805320846686,
+      "expiry": "2026-11-20"
+    },
+    {
+      "strike": 163.5,
+      "call_oi": 4,
+      "put_oi": 107,
+      "call_gamma": 0.14396995256247383,
+      "put_gamma": 0.15838063214483675,
+      "expiry": "2026-11-20"
+    },
+    {
+      "strike": 166.5,
+      "call_oi": 1,
       "put_oi": 0,
-      "call_gamma": 0.02279716156680352,
+      "call_gamma": 0.09082238750240268,
       "put_gamma": 0.0,
       "expiry": "2026-11-20"
     },
     {
-      "strike": 160.5,
-      "call_oi": 0,
-      "put_oi": 30,
-      "call_gamma": 0.0,
-      "put_gamma": 0.0006690277015005674,
+      "strike": 169.75,
+      "call_oi": 4,
+      "put_oi": 0,
+      "call_gamma": 0.06410721742709317,
+      "put_gamma": 0.0,
       "expiry": "2026-11-20"
     },
     {
       "strike": 136.75,
       "call_oi": 1,
       "put_oi": 0,
-      "call_gamma": 0.029967538470472267,
+      "call_gamma": 0.030174115949064318,
       "put_gamma": 0.0,
       "expiry": "2026-12-18"
     },
@@ -96,48 +128,104 @@
       "strike": 138.75,
       "call_oi": 49,
       "put_oi": 0,
-      "call_gamma": 0.0330039710700047,
+      "call_gamma": 0.03327373758574043,
       "put_gamma": 0.0,
       "expiry": "2026-12-18"
     },
     {
-      "strike": 150.0,
+      "strike": 141.0,
+      "call_oi": 108,
+      "put_oi": 0,
+      "call_gamma": 0.021001306698377426,
+      "put_gamma": 0.0,
+      "expiry": "2026-12-18"
+    },
+    {
+      "strike": 143.0,
+      "call_oi": 27,
+      "put_oi": 0,
+      "call_gamma": 0.03274270686702541,
+      "put_gamma": 0.0,
+      "expiry": "2026-12-18"
+    },
+    {
+      "strike": 145.5,
+      "call_oi": 616,
+      "put_oi": 0,
+      "call_gamma": 0.044127320454375646,
+      "put_gamma": 0.0,
+      "expiry": "2026-12-18"
+    },
+    {
+      "strike": 147.75,
+      "call_oi": 389,
+      "put_oi": 0,
+      "call_gamma": 0.0583648472294979,
+      "put_gamma": 0.0,
+      "expiry": "2026-12-18"
+    },
+    {
+      "strike": 150.25,
       "call_oi": 629,
-      "put_oi": 0,
-      "call_gamma": 0.0032353669782816128,
-      "put_gamma": 0.0,
+      "put_oi": 3,
+      "call_gamma": 0.07705695456309726,
+      "put_gamma": 0.06467741635960414,
       "expiry": "2026-12-18"
     },
     {
-      "strike": 152.5,
+      "strike": 152.75,
       "call_oi": 10118,
-      "put_oi": 0,
-      "call_gamma": 4.6587485663145055e-05,
-      "put_gamma": 0.0,
+      "put_oi": 3,
+      "call_gamma": 0.10810980662465547,
+      "put_gamma": 0.08348938599849827,
       "expiry": "2026-12-18"
     },
     {
       "strike": 155.25,
       "call_oi": 1930,
-      "put_oi": 0,
-      "call_gamma": 0.025799144986387235,
-      "put_gamma": 0.0,
+      "put_oi": 56,
+      "call_gamma": 0.17364612261496293,
+      "put_gamma": 0.13770588289809813,
+      "expiry": "2026-12-18"
+    },
+    {
+      "strike": 158.0,
+      "call_oi": 1166,
+      "put_oi": 596,
+      "call_gamma": 0.1619514040949652,
+      "put_gamma": 0.24764313160158385,
+      "expiry": "2026-12-18"
+    },
+    {
+      "strike": 160.75,
+      "call_oi": 162,
+      "put_oi": 1079,
+      "call_gamma": 0.17924631198722393,
+      "put_gamma": 0.258274051142817,
+      "expiry": "2026-12-18"
+    },
+    {
+      "strike": 163.5,
+      "call_oi": 630,
+      "put_oi": 507,
+      "call_gamma": 0.10978525833541122,
+      "put_gamma": 0.1406260400136142,
       "expiry": "2026-12-18"
     },
     {
       "strike": 166.5,
-      "call_oi": 0,
+      "call_oi": 107,
       "put_oi": 304,
-      "call_gamma": 0.0,
-      "put_gamma": 3.5817490333368127e-06,
+      "call_gamma": 0.08505173650815658,
+      "put_gamma": 0.08298623746954434,
       "expiry": "2026-12-18"
     },
     {
-      "strike": 169.5,
+      "strike": 169.75,
       "call_oi": 22,
       "put_oi": 116,
-      "call_gamma": 0.04586536744420704,
-      "put_gamma": 0.06114778574011747,
+      "call_gamma": 0.046515295315725645,
+      "put_gamma": 0.05946584414410177,
       "expiry": "2026-12-18"
     },
     {
@@ -145,30 +233,46 @@
       "call_oi": 0,
       "put_oi": 18,
       "call_gamma": 0.0,
-      "put_gamma": 0.04864301699785019,
+      "put_gamma": 0.04773430830203592,
       "expiry": "2026-12-18"
     },
     {
-      "strike": 176.0,
+      "strike": 176.25,
       "call_oi": 2,
       "put_oi": 50,
-      "call_gamma": 0.029134867515707857,
-      "put_gamma": 0.038422161580986026,
+      "call_gamma": 0.029447573296266894,
+      "put_gamma": 0.03794849540770533,
       "expiry": "2026-12-18"
     },
     {
       "strike": 179.5,
       "call_oi": 3,
       "put_oi": 0,
-      "call_gamma": 0.030872411495836177,
+      "call_gamma": 0.03096334690404769,
       "put_gamma": 0.0,
       "expiry": "2026-12-18"
+    },
+    {
+      "strike": 195.0,
+      "call_oi": 2,
+      "put_oi": 0,
+      "call_gamma": 0.01668879647791982,
+      "put_gamma": 0.0,
+      "expiry": "2026-12-18"
+    },
+    {
+      "strike": 96.5,
+      "call_oi": 666,
+      "put_oi": 0,
+      "call_gamma": 0.0027046187961822232,
+      "put_gamma": 0.0,
+      "expiry": "2027-01-15"
     },
     {
       "strike": 101.75,
       "call_oi": 207,
       "put_oi": 0,
-      "call_gamma": 0.008149293950761631,
+      "call_gamma": 0.008107640779982632,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
@@ -176,15 +280,23 @@
       "strike": 114.5,
       "call_oi": 1018,
       "put_oi": 2,
-      "call_gamma": 0.005172775797064078,
-      "put_gamma": 0.010868519910130155,
+      "call_gamma": 0.005193854881252363,
+      "put_gamma": 0.011720076879929335,
       "expiry": "2027-01-15"
     },
     {
       "strike": 120.5,
       "call_oi": 26,
       "put_oi": 0,
-      "call_gamma": 0.015225413297780033,
+      "call_gamma": 0.015229950500362247,
+      "put_gamma": 0.0,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 125.5,
+      "call_oi": 1712,
+      "put_oi": 0,
+      "call_gamma": 0.019722993612922415,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
@@ -192,7 +304,7 @@
       "strike": 127.25,
       "call_oi": 61,
       "put_oi": 0,
-      "call_gamma": 0.021199514399675785,
+      "call_gamma": 0.021283439656742474,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
@@ -200,7 +312,7 @@
       "strike": 130.75,
       "call_oi": 2081,
       "put_oi": 0,
-      "call_gamma": 0.00011993730045094971,
+      "call_gamma": 0.015097853953473827,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
@@ -208,7 +320,7 @@
       "strike": 132.75,
       "call_oi": 19,
       "put_oi": 0,
-      "call_gamma": 0.025787386672431988,
+      "call_gamma": 0.02592741580287356,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
@@ -216,7 +328,7 @@
       "strike": 134.75,
       "call_oi": 77,
       "put_oi": 0,
-      "call_gamma": 0.027862157175161145,
+      "call_gamma": 0.028041975457804753,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
@@ -224,7 +336,7 @@
       "strike": 136.75,
       "call_oi": 45,
       "put_oi": 0,
-      "call_gamma": 0.03054956974914202,
+      "call_gamma": 0.030769451263508732,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
@@ -232,7 +344,15 @@
       "strike": 138.75,
       "call_oi": 2318,
       "put_oi": 0,
-      "call_gamma": 0.033652084357811314,
+      "call_gamma": 0.03392712187611126,
+      "put_gamma": 0.0,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 141.0,
+      "call_oi": 11577,
+      "put_oi": 0,
+      "call_gamma": 0.03262480800497234,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
@@ -240,48 +360,128 @@
       "strike": 143.0,
       "call_oi": 438,
       "put_oi": 0,
-      "call_gamma": 0.04150066895053245,
+      "call_gamma": 0.04194264529781454,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
     {
-      "strike": 150.0,
+      "strike": 145.5,
+      "call_oi": 302,
+      "put_oi": 0,
+      "call_gamma": 0.04882410238559324,
+      "put_gamma": 0.0,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 147.75,
+      "call_oi": 951,
+      "put_oi": 8,
+      "call_gamma": 0.06030813075647935,
+      "put_gamma": 0.04661866636983028,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 150.25,
       "call_oi": 673,
       "put_oi": 0,
-      "call_gamma": 5.973419889288547e-05,
+      "call_gamma": 0.0815181813468559,
       "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
     {
-      "strike": 152.5,
+      "strike": 152.75,
       "call_oi": 9541,
-      "put_oi": 0,
-      "call_gamma": 0.0066314548530058,
-      "put_gamma": 0.0,
+      "put_oi": 44,
+      "call_gamma": 0.10966619855310955,
+      "put_gamma": 0.0943631291898192,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 155.25,
+      "call_oi": 1041,
+      "put_oi": 146,
+      "call_gamma": 0.14283131820616315,
+      "put_gamma": 0.15540102149004253,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 158.0,
+      "call_oi": 1274,
+      "put_oi": 1308,
+      "call_gamma": 0.16181018214293477,
+      "put_gamma": 0.23070052759138376,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 160.75,
+      "call_oi": 251,
+      "put_oi": 913,
+      "call_gamma": 0.12650849329792357,
+      "put_gamma": 0.20000541917430467,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 163.5,
+      "call_oi": 178,
+      "put_oi": 163,
+      "call_gamma": 0.10245224873571407,
+      "put_gamma": 0.12727237325018573,
       "expiry": "2027-01-15"
     },
     {
       "strike": 166.5,
-      "call_oi": 0,
+      "call_oi": 41,
       "put_oi": 1855,
-      "call_gamma": 0.0,
-      "put_gamma": 0.0002993020179160739,
+      "call_gamma": 0.07472782052737079,
+      "put_gamma": 0.06782974021242229,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 169.75,
+      "call_oi": 230,
+      "put_oi": 0,
+      "call_gamma": 0.05260391072931223,
+      "put_gamma": 0.0,
       "expiry": "2027-01-15"
     },
     {
       "strike": 172.75,
-      "call_oi": 0,
+      "call_oi": 73,
       "put_oi": 335,
-      "call_gamma": 0.0,
-      "put_gamma": 0.035039856846317274,
+      "call_gamma": 0.0429957405310571,
+      "put_gamma": 0.033998563508360696,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 183.25,
+      "call_oi": 155,
+      "put_oi": 2472,
+      "call_gamma": 0.02506917469506231,
+      "put_gamma": 0.026019145298740807,
       "expiry": "2027-01-15"
     },
     {
       "strike": 203.5,
-      "call_oi": 0,
+      "call_oi": 30,
       "put_oi": 7,
-      "call_gamma": 0.0,
-      "put_gamma": 0.014512250761521713,
+      "call_gamma": 0.014291770577691959,
+      "put_gamma": 0.014379861153215951,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 229.0,
+      "call_oi": 80,
+      "put_oi": 0,
+      "call_gamma": 0.006490601162726652,
+      "put_gamma": 0.0,
+      "expiry": "2027-01-15"
+    },
+    {
+      "strike": 261.75,
+      "call_oi": 292,
+      "put_oi": 0,
+      "call_gamma": 0.0043936921546018195,
+      "put_gamma": 0.0,
       "expiry": "2027-01-15"
     }
   ]

@@ -1,296 +1,296 @@
 {
-  "asOf": "2026-11-16T12:06:02Z",
+  "asOf": "2026-11-16T22:33:39Z",
   "source": "yfinance_GLD_chain:dealer_sign_proxy;front=2026-11-16;front_label=0dte;expiries=8;xau=gold_api",
-  "gldPrice": 355.45,
-  "xauPrice": 3876.2,
+  "gldPrice": 352.93,
+  "xauPrice": 3859.05,
   "rows": [
     {
+      "strike": 330.0,
+      "callGex": 119324.86,
+      "putGex": -12720451.08,
+      "netGex": -12601126.22,
+      "callOi": 122,
+      "putOi": 26176
+    },
+    {
       "strike": 335.0,
-      "callGex": 0.0,
-      "putGex": -15057.41,
-      "netGex": -15057.41,
-      "callOi": 0,
+      "callGex": 109118.11,
+      "putGex": -21527461.11,
+      "netGex": -21418343.0,
+      "callOi": 83,
       "putOi": 21352
     },
     {
-      "strike": 336.0,
-      "callGex": 0.0,
-      "putGex": -1408.15,
-      "netGex": -1408.15,
-      "callOi": 0,
-      "putOi": 1167
-    },
-    {
-      "strike": 337.0,
-      "callGex": 0.0,
-      "putGex": -2451.68,
-      "netGex": -2451.68,
-      "callOi": 0,
-      "putOi": 653
-    },
-    {
-      "strike": 339.0,
-      "callGex": 0.0,
-      "putGex": -23838.83,
-      "netGex": -23838.83,
-      "callOi": 0,
-      "putOi": 1218
-    },
-    {
       "strike": 340.0,
-      "callGex": 0.0,
-      "putGex": -1393.13,
-      "netGex": -1393.13,
-      "callOi": 0,
+      "callGex": 551342.46,
+      "putGex": -34242100.88,
+      "netGex": -33690758.42,
+      "callOi": 258,
       "putOi": 17101
     },
     {
+      "strike": 341.0,
+      "callGex": 3274.7,
+      "putGex": -4268396.38,
+      "netGex": -4265121.68,
+      "callOi": 3,
+      "putOi": 1929
+    },
+    {
+      "strike": 342.0,
+      "callGex": 7900.94,
+      "putGex": -2316120.21,
+      "netGex": -2308219.27,
+      "callOi": 4,
+      "putOi": 988
+    },
+    {
+      "strike": 343.0,
+      "callGex": 14459.91,
+      "putGex": -20910551.98,
+      "netGex": -20896092.06,
+      "callOi": 22,
+      "putOi": 7453
+    },
+    {
       "strike": 345.0,
-      "callGex": 0.0,
-      "putGex": -103741.55,
-      "netGex": -103741.55,
-      "callOi": 0,
+      "callGex": 1124686.58,
+      "putGex": -326459371.94,
+      "netGex": -325334685.35,
+      "callOi": 348,
       "putOi": 92351
     },
     {
       "strike": 346.0,
-      "callGex": 0.0,
-      "putGex": -7204.87,
-      "netGex": -7204.87,
-      "callOi": 0,
+      "callGex": 209009.89,
+      "putGex": -5666798.8,
+      "netGex": -5457788.91,
+      "callOi": 69,
       "putOi": 1660
     },
     {
       "strike": 347.0,
-      "callGex": 0.0,
-      "putGex": -32747.02,
-      "netGex": -32747.02,
-      "callOi": 0,
+      "callGex": 313986.21,
+      "putGex": -7372233.01,
+      "netGex": -7058246.8,
+      "callOi": 84,
       "putOi": 1841
     },
     {
       "strike": 348.0,
-      "callGex": 0.0,
-      "putGex": -8422.82,
-      "netGex": -8422.82,
-      "callOi": 0,
+      "callGex": 141667.77,
+      "putGex": -8235138.71,
+      "netGex": -8093470.94,
+      "callOi": 35,
       "putOi": 2202
     },
     {
       "strike": 349.0,
-      "callGex": 0.0,
-      "putGex": -12393.51,
-      "netGex": -12393.51,
-      "callOi": 0,
+      "callGex": 67014.3,
+      "putGex": -11519170.73,
+      "netGex": -11452156.43,
+      "callOi": 39,
       "putOi": 2299
     },
     {
       "strike": 350.0,
-      "callGex": 0.0,
-      "putGex": -36100.01,
-      "netGex": -36100.01,
-      "callOi": 0,
+      "callGex": 6251250.35,
+      "putGex": -113019894.72,
+      "netGex": -106768644.37,
+      "callOi": 1321,
       "putOi": 23698
     },
     {
       "strike": 351.0,
-      "callGex": 0.0,
-      "putGex": -65583.42,
-      "netGex": -65583.42,
-      "callOi": 0,
+      "callGex": 387714.09,
+      "putGex": -19735172.25,
+      "netGex": -19347458.16,
+      "callOi": 69,
       "putOi": 3587
     },
     {
       "strike": 352.0,
-      "callGex": 0.0,
-      "putGex": -71632.35,
-      "netGex": -71632.35,
-      "callOi": 0,
+      "callGex": 419846.61,
+      "putGex": -12536291.12,
+      "netGex": -12116444.51,
+      "callOi": 80,
       "putOi": 2647
     },
     {
       "strike": 353.0,
-      "callGex": 0.0,
-      "putGex": -59937.13,
-      "netGex": -59937.13,
-      "callOi": 0,
-      "putOi": 2303
+      "callGex": 19916424.5,
+      "putGex": -115669650.92,
+      "netGex": -95753226.42,
+      "callOi": 274,
+      "putOi": 2315
     },
     {
       "strike": 354.0,
-      "callGex": 0.0,
-      "putGex": -126675.78,
-      "netGex": -126675.78,
-      "callOi": 0,
-      "putOi": 995
+      "callGex": 2019646.42,
+      "putGex": -19089337.19,
+      "netGex": -17069690.77,
+      "callOi": 498,
+      "putOi": 2950
+    },
+    {
+      "strike": 355.0,
+      "callGex": 7528033.8,
+      "putGex": -90135626.41,
+      "netGex": -82607592.6,
+      "callOi": 1639,
+      "putOi": 16967
+    },
+    {
+      "strike": 356.0,
+      "callGex": 6227560.44,
+      "putGex": -9810384.59,
+      "netGex": -3582824.14,
+      "callOi": 2672,
+      "putOi": 1720
     },
     {
       "strike": 357.0,
-      "callGex": 30630.69,
-      "putGex": 0.0,
-      "netGex": 30630.69,
-      "callOi": 52,
-      "putOi": 0
+      "callGex": 5859895.57,
+      "putGex": -5075783.57,
+      "netGex": 784112.0,
+      "callOi": 1340,
+      "putOi": 1252
+    },
+    {
+      "strike": 358.0,
+      "callGex": 9352481.34,
+      "putGex": -5218388.89,
+      "netGex": 4134092.45,
+      "callOi": 2465,
+      "putOi": 1254
     },
     {
       "strike": 359.0,
-      "callGex": 15607.89,
-      "putGex": 0.0,
-      "netGex": 15607.89,
-      "callOi": 417,
-      "putOi": 0
+      "callGex": 5617667.61,
+      "putGex": -4119693.02,
+      "netGex": 1497974.59,
+      "callOi": 1658,
+      "putOi": 1127
     },
     {
       "strike": 360.0,
-      "callGex": 122750.14,
-      "putGex": 0.0,
-      "netGex": 122750.14,
+      "callGex": 13959524.54,
+      "putGex": -39174425.22,
+      "netGex": -25214900.68,
       "callOi": 4623,
-      "putOi": 0
+      "putOi": 9958
     },
     {
       "strike": 361.0,
-      "callGex": 12884.3,
-      "putGex": 0.0,
-      "netGex": 12884.3,
+      "callGex": 4746270.06,
+      "putGex": -6315744.84,
+      "netGex": -1569474.78,
       "callOi": 1912,
-      "putOi": 0
+      "putOi": 1778
     },
     {
       "strike": 362.0,
-      "callGex": 22237.87,
-      "putGex": 0.0,
-      "netGex": 22237.87,
+      "callGex": 3132081.97,
+      "putGex": -4772541.29,
+      "netGex": -1640459.32,
       "callOi": 3334,
-      "putOi": 0
+      "putOi": 1521
     },
     {
       "strike": 363.0,
-      "callGex": 7608.57,
-      "putGex": 0.0,
-      "netGex": 7608.57,
+      "callGex": 3800733.33,
+      "putGex": -3843132.65,
+      "netGex": -42399.32,
       "callOi": 1860,
-      "putOi": 0
+      "putOi": 1362
     },
     {
       "strike": 364.0,
-      "callGex": 42251.78,
-      "putGex": 0.0,
-      "netGex": 42251.78,
+      "callGex": 2171661.51,
+      "putGex": -2733626.28,
+      "netGex": -561964.77,
       "callOi": 1421,
-      "putOi": 0
+      "putOi": 1356
     },
     {
       "strike": 365.0,
-      "callGex": 38341.24,
-      "putGex": 0.0,
-      "netGex": 38341.24,
+      "callGex": 6914605.17,
+      "putGex": -20492414.97,
+      "netGex": -13577809.8,
       "callOi": 4828,
-      "putOi": 0
+      "putOi": 9223
     },
     {
       "strike": 366.0,
-      "callGex": 7713.22,
-      "putGex": 0.0,
-      "netGex": 7713.22,
+      "callGex": 1596622.35,
+      "putGex": -2322806.35,
+      "netGex": -726184.01,
       "callOi": 1931,
-      "putOi": 0
+      "putOi": 1235
     },
     {
       "strike": 367.0,
-      "callGex": 3260.0,
-      "putGex": 0.0,
-      "netGex": 3260.0,
+      "callGex": 1653443.81,
+      "putGex": -2721228.57,
+      "netGex": -1067784.76,
       "callOi": 1165,
-      "putOi": 0
+      "putOi": 1366
+    },
+    {
+      "strike": 368.0,
+      "callGex": 2111942.89,
+      "putGex": -1642752.5,
+      "netGex": 469190.38,
+      "callOi": 1600,
+      "putOi": 1195
     },
     {
       "strike": 369.0,
-      "callGex": 18998.96,
-      "putGex": 0.0,
-      "netGex": 18998.96,
+      "callGex": 12394462.03,
+      "putGex": -728222.68,
+      "netGex": 11666239.35,
       "callOi": 7967,
-      "putOi": 0
+      "putOi": 404
     },
     {
       "strike": 370.0,
-      "callGex": 1913.98,
-      "putGex": 0.0,
-      "netGex": 1913.98,
+      "callGex": 7776962.76,
+      "putGex": -21111704.17,
+      "netGex": -13334741.41,
       "callOi": 7897,
-      "putOi": 0
+      "putOi": 16635
     },
     {
       "strike": 371.0,
-      "callGex": 24928.2,
-      "putGex": 0.0,
-      "netGex": 24928.2,
+      "callGex": 2418949.65,
+      "putGex": -944060.6,
+      "netGex": 1474889.05,
       "callOi": 4102,
-      "putOi": 0
+      "putOi": 614
     },
     {
       "strike": 373.0,
-      "callGex": 39590.41,
-      "putGex": 0.0,
-      "netGex": 39590.41,
+      "callGex": 1255521.28,
+      "putGex": -1104363.89,
+      "netGex": 151157.39,
       "callOi": 2108,
-      "putOi": 0
-    },
-    {
-      "strike": 374.0,
-      "callGex": 6557.03,
-      "putGex": 0.0,
-      "netGex": 6557.03,
-      "callOi": 1728,
-      "putOi": 0
+      "putOi": 801
     },
     {
       "strike": 375.0,
-      "callGex": 69355.52,
-      "putGex": 0.0,
-      "netGex": 69355.52,
+      "callGex": 6528448.49,
+      "putGex": -3546492.69,
+      "netGex": 2981955.8,
       "callOi": 14783,
-      "putOi": 0
-    },
-    {
-      "strike": 376.0,
-      "callGex": 1924.72,
-      "putGex": 0.0,
-      "netGex": 1924.72,
-      "callOi": 1666,
-      "putOi": 0
+      "putOi": 4769
     },
     {
       "strike": 380.0,
-      "callGex": 4036.46,
-      "putGex": 0.0,
-      "netGex": 4036.46,
+      "callGex": 3656571.23,
+      "putGex": -7330821.46,
+      "netGex": -3674250.23,
       "callOi": 19549,
-      "putOi": 0
-    },
-    {
-      "strike": 395.0,
-      "callGex": 34027.98,
-      "putGex": 0.0,
-      "netGex": 34027.98,
-      "callOi": 10010,
-      "putOi": 0
-    },
-    {
-      "strike": 397.0,
-      "callGex": 1565.55,
-      "putGex": 0.0,
-      "netGex": 1565.55,
-      "callOi": 939,
-      "putOi": 0
-    },
-    {
-      "strike": 400.0,
-      "callGex": 8522.18,
-      "putGex": 0.0,
-      "netGex": 8522.18,
-      "callOi": 16501,
-      "putOi": 0
+      "putOi": 11150
     }
   ]
 }
