@@ -1,15 +1,15 @@
 {
-  "asOf": "2026-11-18T13:30:05Z",
+  "asOf": "2026-11-18T21:37:40Z",
   "source": "yfinance_GLD_chain:dealer_sign_proxy;front=2026-11-18;front_label=0dte;expiries=8;xau=gold_api",
-  "xauPrice": 3772.3501,
-  "gldPrice": 352.48,
-  "netGamma0dte": -13335831.79,
-  "netGammaAll": -436579000.08,
-  "expectedMoveGld": 6.775,
-  "gammaFlip": 357.119,
+  "xauPrice": 3729.6001,
+  "gldPrice": 341.19,
+  "netGamma0dte": 7057.49,
+  "netGammaAll": -1121285307.57,
+  "expectedMoveGld": 1.275,
+  "gammaFlip": 358.2992,
   "gammaPin": 345.0,
   "callWall": 360.0,
-  "putWall": 345.0,
-  "secondCallWall": 355.0,
-  "secondPutWall": 350.0
+  "putWall": 340.0,
+  "secondCallWall": 365.0,
+  "secondPutWall": 335.0
 }
